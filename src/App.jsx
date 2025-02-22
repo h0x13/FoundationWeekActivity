@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Index from './pages/foundation';
+import Index from './pages/index';
 import Reflection from './pages/reflection';
 import VideoPresentation from './pages/presentaion';
 import Poster from './pages/poster';

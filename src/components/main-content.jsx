@@ -46,15 +46,15 @@ const About = () => {
               className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-3 px-6 rounded-full transition duration-300">
               Reflection Activity
             </Link>
-            <Link 
+            <Link
               to="/poster"
               className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-3 px-6 rounded-full transition duration-300">
               Poster Project
             </Link>
-            <Link 
+            <Link
               to="/presentaion"
               className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-3 px-6 rounded-full transition duration-300">
-              Group Presentation
+              Promotional Video
             </Link>
           </div>
         </div>
