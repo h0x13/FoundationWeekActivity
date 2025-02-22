@@ -1,6 +1,6 @@
 import React, { useRef, useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { Play, Pause, Volume2, Settings, Maximize2 } from "lucide-react";
+import { Play, Pause, Volume2, Settings, Maximize2, Minimize2 } from "lucide-react";
 
 const VideoPresentation = () => {
   const videoRef = useRef(null);
@@ -201,7 +201,7 @@ const VideoPresentation = () => {
                 className="text-white hover:text-blue-400 transition cursor-pointer"
                 onClick={toggleFullscreen}
               >
-                <Maximize2 className="w-6 h-6" />
+                {isFullscreen? <Minimize2 className="w-6 h-6" /> : <Maximize2 className="w-6 h-6" />}
               </button>
             </div>
           </div>
