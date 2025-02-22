@@ -16,10 +16,10 @@ const VolumeControl = ({
       onMouseLeave={onMouseLeave}
     >
       <button
-        className={`transition cursor-pointer ${showVolume ? 'text-blue-400' : 'text-white hover:text-blue-400'}`}
+        className={`flex align-middle transition cursor-pointer ${showVolume ? 'text-blue-400' : 'text-white hover:text-blue-400'}`}
         onClick={onToggleVolume}
       >
-        <Volume2 className="w-6 h-6" />
+        <Volume2 className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6" />
       </button>
       {showVolume && (
         <div className="absolute bottom-8 -left-2 bg-gray-800 rounded-lg p-4">

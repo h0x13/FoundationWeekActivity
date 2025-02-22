@@ -63,39 +63,39 @@ const EventsTimeline = () => {
 
   return (
     <div className="max-w-4xl mx-auto p-8">
-      <h1 className="text-3xl font-bold text-center mb-10 mt-8 text-slate-300">EVSU Foundation Week Events Schedule</h1>
+      <h1 className="text-1xl sm:text-2xl md:text-4xl lg:text-4xl font-bold text-center mb-10 mt-8 text-slate-300">EVSU Foundation Week Events Schedule</h1>
       <div className="relative">
         {events.map((day, dayIndex) => (
           <div key={dayIndex} className="mb-12 relative">
-            <div className="absolute left-8 top-0 w-1 h-full bg-gray-400" />
+            <div className="absolute left-2 sm:left-4 md:left-8 top-0 w-1 h-full bg-gray-400" />
 
             <div className="flex items-center mb-6 relative">
-              <div className="absolute left-8 w-2 h-2 bg-gray-400 rounded-full transform -translate-x-1/4" />
-              <div className="ml-16 flex items-center">
-                <Calendar className="w-6 h-6 text-slate-300 mr-2" />
-                <h2 className="text-xl font-semibold text-slate-300">{day.date}</h2>
+              <div className="absolute left-2 sm:left-4 md:left-8 w-2 h-2 bg-gray-400 rounded-full transform -translate-x-1/4" />
+              <div className="ml-8 sm:ml-12 md:ml-16 flex items-center align-top">
+                <Calendar className="w-5 h-5 md:w-6 md:h-6 text-slate-300 mr-2" />
+                <h2 className="text-sm sm:text-base md:text-xl font-semibold text-slate-300">{day.date}</h2>
               </div>
             </div>
 
             <div className="space-y-6">
               {day.activities.map((activity, actIndex) => (
-                <div key={actIndex} className="relative ml-16">
+                <div key={actIndex} className="relative ml-8 sm:ml-12 md:ml-16">
                   {/* Activity dot */}
-                  <div className="absolute -left-8 w-2 h-2 bg-gray-400 rounded-full transform -translate-x-1/4 mt-2" />
+                  <div className="absolute -left-6 sm:-left-8 w-2 h-2 bg-gray-400 rounded-full transform -translate-x-1/4 mt-2" />
 
-                  <div className="bg-white p-4 rounded-lg border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
+                  <div className="bg-white p-2 sm:p-4 rounded-md sm:rounded-lg border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
                     <div className="flex flex-col space-y-2">
                       {activity.time && (
                         <div className="flex items-center text-gray-600">
-                          <Clock className="w-4 h-4 mr-2" />
-                          <span className="text-sm font-medium">{activity.time}</span>
+                          <Clock className="w-3 md:w-4 h-3 md:h-4 mr-1 md:mr-2" />
+                          <span className="text-xs md:text-sm font-medium">{activity.time}</span>
                         </div>
                       )}
-                      <div className="text-gray-800">{activity.event}</div>
+                      <div className="text-gray-800 text-xs md:text-base">{activity.event}</div>
                       {activity.location && (
                         <div className="flex items-center text-gray-600">
-                          <MapPin className="w-4 h-4 mr-2" />
-                          <span className="text-sm">{activity.location}</span>
+                          <MapPin className="w-2 md:w-2 h-3 md:h-4 mr-1 md:mr-2" />
+                          <span className="text-xs md:text-sm">{activity.location}</span>
                         </div>
                       )}
                     </div>

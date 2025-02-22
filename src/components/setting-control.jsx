@@ -16,10 +16,10 @@ const SettingsControl = ({
       onMouseLeave={onMouseLeave}
     >
       <button
-        className={`transition cursor-pointer ${showSettings ? 'text-blue-400' : 'text-white hover:text-blue-400'}`}
+        className={`flex align-middle transition cursor-pointer ${showSettings ? 'text-blue-400' : 'text-white hover:text-blue-400'}`}
         onClick={onToggleSettings}
       >
-        <Settings className="w-6 h-6" />
+        <Settings className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6" />
       </button>
       {showSettings && (
         <div className="absolute bottom-8 -left-4 bg-gray-800 rounded-lg overflow-hidden">
