@@ -44,12 +44,12 @@ const About = () => {
             <Link
               to="/reflection"
               className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-3 px-6 rounded-full transition duration-300">
-              Reflection Activity
+              Reflection
             </Link>
             <Link
               to="/poster"
               className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-3 px-6 rounded-full transition duration-300">
-              Poster Project
+              Poster
             </Link>
             <Link
               to="/presentaion"

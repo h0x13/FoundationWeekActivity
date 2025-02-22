@@ -5,7 +5,7 @@ const MultimediaApp = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-800 p-6">
       <div className="max-w-3xl bg-white p-8 rounded-2xl shadow-lg">
-        <h1 className="text-2xl font-bold mb-4 text-gray-800">
+        <h1 className="text-2xl font-bold mb-8 text-gray-800 text-center">
           Multimedia Reflection
         </h1>
         <p className="text-gray-700 mb-4">
@@ -23,12 +23,14 @@ const MultimediaApp = () => {
         <p className="text-gray-700 mb-4">
           By carefully considering these challenges and integrating smart solutions, multimedia applications can provide a seamless, high-quality experience for all users.
         </p>
-        <Link
-          to="/"
-          className="mt-8 bg-slate-500 hover:bg-slate-600 text-white px-6 py-2 rounded-lg shadow-md transition"
-        >
-          Back to Home
-        </Link>
+        <div className="flex mt-10">
+          <Link
+            to="/"
+            className="bg-slate-500 hover:bg-slate-600 text-white px-6 py-2 rounded-lg shadow-md transition ml-auto"
+          >
+            Back to Home
+          </Link>
+        </div>
       </div>
     </div>
   );
