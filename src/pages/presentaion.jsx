@@ -121,7 +121,7 @@ const VideoPresentation = () => {
               <button className="text-white hover:text-blue-400 transition cursor-pointer" onClick={togglePlay}>
                 {isPlaying ? <Pause className="w-8 h-8" /> : <Play className="w-8 h-8" />}
               </button>
-              
+
               <input
                 type="range"
                 min="0"
@@ -133,12 +133,12 @@ const VideoPresentation = () => {
               />
 
               {/* Volume Control */}
-              <div 
+              <div
                 ref={volumeControlRef}
                 className="relative"
                 onMouseLeave={() => handleMouseLeave('volume')}
               >
-                <button 
+                <button
                   className={`transition cursor-pointer ${showVolume ? 'text-blue-400' : 'text-white hover:text-blue-400'}`}
                   onClick={() => setShowVolume(!showVolume)}
                 >
@@ -168,12 +168,12 @@ const VideoPresentation = () => {
               </div>
 
               {/* Settings Control */}
-              <div 
+              <div
                 ref={settingsControlRef}
                 className="relative"
                 onMouseLeave={() => handleMouseLeave('settings')}
               >
-                <button 
+                <button
                   className={`transition cursor-pointer ${showSettings ? 'text-blue-400' : 'text-white hover:text-blue-400'}`}
                   onClick={() => setShowSettings(!showSettings)}
                 >
@@ -197,7 +197,7 @@ const VideoPresentation = () => {
               </div>
 
               {/* Fullscreen Button */}
-              <button 
+              <button
                 className="text-white hover:text-blue-400 transition cursor-pointer"
                 onClick={toggleFullscreen}
               >
@@ -218,7 +218,7 @@ const VideoPresentation = () => {
               to="/"
               className="bg-slate-500 hover:bg-slate-600 text-white px-6 py-2 rounded-lg shadow-md transition flex items-center gap-2"
             >
-              Back to Main
+              Back to Home
             </Link>
           </div>
         </div>

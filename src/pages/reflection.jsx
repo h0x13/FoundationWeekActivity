@@ -27,7 +27,7 @@ const MultimediaApp = () => {
           to="/"
           className="mt-8 bg-slate-500 hover:bg-slate-600 text-white px-6 py-2 rounded-lg shadow-md transition"
         >
-          Back to Main
+          Back to Home
         </Link>
       </div>
     </div>

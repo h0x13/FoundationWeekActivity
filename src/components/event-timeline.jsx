@@ -21,10 +21,10 @@ const EventsTimeline = () => {
       date: "18 February 2025",
       activities: [
         { time: "8:30 AM", event: "Opening & ribbon cutting of heritage" },
-        { time: "9:30 AM", event: "Student's exhibit of creative works / projects & skills contest", location: "at inner court" },
-        { time: "10:00 AM", event: "Memorandum of agreement signing with international and local partners", location: "at Graduate School Function Hall" },
-        { time: "2:00 PM", event: "Harampang meeting with the president. Teaching Personnel", location: "At Miguel Romualdez Memorial Auditorium" },
-        { time: "2:00 PM", event: "Secondary Laboratory School (SLS) Day", location: "at evsu inner court" }
+        { time: "9:30 AM", event: "Student's exhibit of creative works / projects & skills contest", location: "inner court" },
+        { time: "10:00 AM", event: "Memorandum of agreement signing with international and local partners", location: "Graduate School Function Hall" },
+        { time: "2:00 PM", event: "Harampang meeting with the president. Teaching Personnel", location: "Miguel Romualdez Memorial Auditorium" },
+        { time: "2:00 PM", event: "Secondary Laboratory School (SLS) Day", location: "evsu inner court" }
       ]
     },
     {
@@ -32,31 +32,31 @@ const EventsTimeline = () => {
       activities: [
         { time: "9:00 AM", event: "Kanyaw", location: "Inner Court" },
         { time: "9:00 AM", event: "Harampang meeting with the president. Non-teaching personnel", location: "Miguel Romualdez Memorial Auditorium" },
-        { time: "3:00 PM", event: "Fellowship", location: "At Miguel Romualdez Memorial Auditorium" },
+        { time: "3:00 PM", event: "Fellowship", location: "Miguel Romualdez Memorial Auditorium" },
         { time: "", event: "6th Cinesulat - The industrial wheel's film & literary festival 2025" }
       ]
     },
     {
       date: "20-21 February 2025",
       activities: [
-        { time: "8:00 AM - 7:00 PM", event: "Organizations day", location: "at open field" }
+        { time: "8:00 AM - 7:00 PM", event: "Organizations day", location: "open field" }
       ]
     },
     {
       date: "20 February 2025",
       activities: [
         { time: "9:30 AM", event: "Harampang meeting with the president. Campus Student Leaders", location: "Miguel Romualdez Memorial Auditorium" },
-        { time: "10:00 AM", event: "Basketball exhibition game", location: "at inner court" },
-        { time: "3:00 PM", event: "Parangal", location: "at people center" }
+        { time: "10:00 AM", event: "Basketball exhibition game", location: "inner court" },
+        { time: "3:00 PM", event: "Parangal", location: "people center" }
       ]
     },
     {
       date: "21 February 2025",
       activities: [
         { time: "9:00 AM", event: "Smart university project blessing and ribbon cutting ceremonies" },
-        { time: "6:00 PM", event: "Mojofly concert for a cause", location: "at miguel romualdez memorial auditorium" },
-        { time: "6:00 PM", event: "Students' night", location: "at open field" },
-        { time: "8:00 AM to 5:00 PM", event: "Graduate student's day", location: "at graduate school function hall" }
+        { time: "6:00 PM", event: "Mojofly concert for a cause", location: "miguel romualdez memorial auditorium" },
+        { time: "6:00 PM", event: "Students' night", location: "open field" },
+        { time: "8:00 AM to 5:00 PM", event: "Graduate student's day", location: "graduate school function hall" }
       ]
     }
   ];
