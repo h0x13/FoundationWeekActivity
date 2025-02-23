@@ -23,6 +23,7 @@ const Header = () => {
           <ul className="flex flex-col md:flex-row list-none gap-3 text-base md:gap-6 p-4 md:p-0">
             <li><a className="block hover:text-cyan-400 duration-75 ease-in-out" href="#home">Home</a></li>
             <li><a className="block hover:text-cyan-400 duration-75 ease-in-out" href="#events">Events</a></li>
+            <li><a className="block hover:text-cyan-400 duration-75 ease-in-out" href="#story">Highlights &amp; Story</a></li>
             <li><a className="block hover:text-cyan-400 duration-75 ease-in-out" href="#about">About</a></li>
           </ul>
         </nav>
