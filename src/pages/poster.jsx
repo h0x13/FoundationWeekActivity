@@ -1,5 +1,4 @@
 import React from "react";
-import VideoPage from "../components/video-container";
 import { Link } from "react-router-dom";
 
 const ImagePage = ({ title, imageSrc, publishDate }) => {
@@ -10,7 +9,8 @@ const ImagePage = ({ title, imageSrc, publishDate }) => {
           <img
             src={imageSrc}
             alt={title}
-            className="w-full h-full object-contain"
+            onClick={() => window.open("/Poster.png", "_blank")}
+            className="w-full h-full object-contain cursor-pointer"
           />
         </div>
         <div className="p-2 sm:p-4 md:p-8">
